@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+@keyframes fade {
+  0%   {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+html{
+  background-color: #04040c;
+  animation: fade 3s ease;
+  height: 700%;
+}
+/* HEADER */
+
+  .container{
+    line-height: 10px;
+  }
+  .top{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 12px ;
+    margin-left: 30px;
+  }
+  .topside{
+    float: right;
+    margin-right: 50px;
+  }
+hr.line{
+  opacity: .3;
+  margin: 0;
+  width: 95%;
+  margin-left: 30px
+  
+}
+  .line1{
+    opacity: .5;
+    width: 95%;
+    margin-left: 3%;
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  .navlink{
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    width: 140px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+  }
+  .nav{
+    margin-left: 600px;
+  }
+  .navlink:hover{
+    color: #04040c;
+    background-color: #ee6c4d;
+    
+  }
+  .logo{
+    margin: 0;
+    line-height: 37px;
+    letter-spacing: 2px;
+    display: block;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: #e0fbfc;
+    padding-top: 5px;
+  }
+  .spanlogo{
+    color: #98c1d9; 
+  }
+  .spanname{
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+/* BODY */
+/* Sidebar */
+  .container1{
+    margin-top: 20px;
+    height: 100%;
+  }
+  .w3-sidebar{
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 50px; 
+  }
+  .w3-bar-item{
+    margin-top: 0px;
+    line-height: 30px;
+    text-align: center;
+    animation: fade 1.6s ease;
+  }
+
+
+  /* Description */
+
+  .description{
+    color: #0e2e38;
+    font-size: 20px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(images/others/phonehub.jpg);
+    background-size: cover;
+    height: 110%;
+    width: 100%;
+  }
+  .namelogo{
+    color: #ee6c4d;
+  }
+  .sentence{
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+  .bold{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  }
+ .shopnow{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  color: #0d0c1d;
+  background-color: #a69cac;
+  padding: 10px 25px;
+  text-decoration: none;
+  border: 1px;
+  font-size: small;
+ }
+ .shopnow:hover{
+  color: #04040c;
+  background-color: #ee6c4d;
+ }
+ .button{
+  margin-left: 25%;
+  float: left;
+ }
+ .phrases{
+  margin-left: 0px;
+  height: 100px;
+  font-size: 20px;
+  
+  
+ }
+ .phrases1{
+  float: left;
+  width: 23%;
+  background-color: transparent;
+  margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+ }
+ .featured{
+  float: right;
+  margin-right: 20px;
+  margin-top: 50px;
+  background-size: cover;
+  
+  
+ }
+  
+ 
+/* PRODUCTS */
+.productpage{
+  margin-top: 35%;
+  position: relative;
+  background-color: whitesmoke;
+  height: 5555px;
+}
+.head1{
+  margin-left: 50px;
+  font-size: 35px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.phones1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  
+}
+.col{
+  float: left;
+  width: 20%;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  height: 360px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+.col1{
+  line-height: 20px;
+  border: 0.1;
+  padding: 10px;
+}
+.col0{
+  line-height: 20px;
+  border: 0.1;
+  padding: .5px;
+}
+  .col:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.phoneimage{
+  width: 180px;
+  height: 140px;
+}
+.btnphone{
+  color: #04040c;
+  border-radius: 8px;
+  border: 0;
+  background: #a69cac;
+}
+.btnphone:hover{
+  background-color: #ee6c4d;
+  border: 0;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: .3s ease;
+}
+.phoneimage:hover{
+  width: 230px;
+  height: 180px;
+  transition: .4s;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.05);
+}
+.collapsible {
+  color: #ee6c4d;
+  cursor: pointer;
+  margin-left: 48%;
+  width: 4%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  background-color: transparent;
+  
+}
+
+.active,.collapsible::after {
+  color: #04040c; 
+}
+.cont {
+  display: block;
+  overflow: hidden;
+  
+}
+.mySlides {
+  display:none;
+  float: right;
+  margin-top: 80px;
+  margin-right: 50px; 
+}
+.w3-content{
+  float: right;
+  
+}
+.slidecontent{
+  position: relative;
+  text-align: center;
+  color: #04040c;
+}
+.centered{
+  position: absolute;
+  bottom: 8px;
+  left: 27%;
+}
+.buynow{
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: white;
+  background-color: #ee6c4d;
+  padding: 3px;
+  width: 140px;
+  border-radius: 8px;
+  text-align: center;
+}
+.buynow:hover{
+  padding: 10px;
+  width: 200px;
+  margin-left: -30px;
+}
+
+ /* FOOTER */
+
+ .column {
+  float: left;
+  width: 27%;
+  color: white;
+  margin-left: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin-left: 100px;
+}
+.social{
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+}
+.social:hover{
+  color: #ee6c4d;
+  padding-right: 100px;
+  border-radius: 18px;
+}
+.bottom{
+  color: white;
+  text-align: center;
+}
+
+
+/* LOG IN PAGE */
+
+.header1{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.logo1{
+  margin: 0;
+  line-height: 37px;
+  letter-spacing: 1px;
+  display: block;
+  margin-left: 1px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  color: #04040c;
+  padding-top: 5px;
+}
+.spanlogo1{
+  color: #ee6c4d; 
+}
+.spanname1{
+  color: #04040c;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.loginp{
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.logins{
+  font-family: 'Montserrat', sans-serif;
+}
+.loginpage{
+  background-color: whitesmoke;
+  animation: fade 3s ease;
+  height: 100%;
+  background-image: url(/images/others/loginbg.jpg);
+  background-size: cover;
+}
+.description1{
+  margin-top: 55px;
+  margin-left: 14%;
+  width: 70%;
+}
+.logincontainer{
+  text-align: center;
+}
+.form{
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+i.icon{
+  font-size: 25px;
+}
+.iconlink{
+  padding: 5px;
+}
+.iconlink:hover{
+  color: #ee6c4d;
+}
+
+.uname{
+  border-radius: 8px;
+  border: 0;
+  background-color: #eba998;
+  line-height: 30px;
+  padding: 5px;
+  color: #04040c;
+  width: 300px;
+}
+.btnlog{
+  text-align: center;
+  border-radius: 18px;
+  width: 100px;
+  border: 0;
+  color: white;
+  background-color: #9494ac;
+  line-height: 30px;
+}
+.btnlog:hover{
+  background-color: #ee6c4d;
+}
+.cancelbtn{
+  border: 0;
+  background-color: transparent;
+}
+.cancelbtn:hover{
+  color: white;
+  background-color: #ee6c4d;
+  border-color: #ee6c4d;
+}
